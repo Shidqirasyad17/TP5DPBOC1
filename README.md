@@ -9,8 +9,8 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP5 pada mata kulia
 kelas ini berfungsi untuk menyambungkan dengan database MySql.
 
 Method :
-- selectQuery
-- insertupdatedeleteQuery
+- selectQuery -> menjalankan query SELECT dan mengembalikan ResultSet
+- insertupdatedeleteQuery -> menjalankan query INSERT, UPDATE, dan DELETE
 ### `Class Product`
 kelas ini memiliki beberapa atribut :
 - `id` -> ID produk
@@ -27,34 +27,34 @@ Method :
 Kelas ini mengatur GUI serta logika CRUD untuk data produk.
 
 Fungsi : 
- - Menampilkan data produk pada tabel
- - Menambahkan produk baru
- - mengubah data produk yang ada
- - menghapus produk dari daftar
+ - Menampilkan data produk dari database pada tabel
+ - Menambahkan produk baru ke database
+ - mengubah data produk yang sudah ada
+ - menghapus produk dari database
  - rating produk menggunakan slider
 
 ---
 
 ## Alur
 1. Program dijalankan
-2. Data awal produk
-3. Tabel produk
-4. user dapat melakukan aksi :
+2. Tabel menampilkan data dari database 'Produk'.
+3. user dapat melakukan aksi :
    - tambah data:
-     - isi form -> klik tombol Add -> data masuk ke listproduct
+     - isi form -> klik tombol Add -> data masuk ke database
    - Edit data:
      - klik salah satu baris di tabel -> data muncul di form -> ubah data pada form -> klik            update
    - Hapus data:
      - Klik baris -> klik Delete -> konfirmasi penghapusan.
    - Cancel :
      - Klik cancel -> form dikosongkan.
-5. Slider Rating:
+4. Slider Rating:
    - Saat digeser, rating menampilkan bintang sesuai nilai slider.
 ---
 
 # Dokumentasi
 
-![Recording2025-10-09140223-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/94af4452-fea4-4fbd-b07c-4fb24ddc5e2f)
+![dokumentasitp5](https://github.com/user-attachments/assets/27de6679-e0bb-403a-ba59-6fec3f0a8c75)
+
 
 
 
